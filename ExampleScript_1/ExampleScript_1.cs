@@ -1,25 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<DMSScript options="272" xmlns="http://www.skyline.be/automation">
-	<Name>ExampleScript</Name>
-	<Description></Description>
-	<Type>Automation</Type>
-	<Author>PDB</Author>
-	<CheckSets>FALSE</CheckSets>
-	<Folder></Folder>
-
-	<Protocols>
-	</Protocols>
-
-	<Memory>
-	</Memory>
-
-	<Parameters>
-	</Parameters>
-
-	<Script>
-		<Exe id="1" type="csharp">
-			<Value>
-				<![CDATA[/*
+/*
 ****************************************************************************
 *  Copyright (c) 2024,  Skyline Communications NV  All Rights Reserved.    *
 ****************************************************************************
@@ -93,15 +72,4 @@ namespace AutomationExe
 	
 		}
 	}
-}]]>
-			</Value>
-			<!--<Param type="using">ADD_A_NAMESPACE_HERE</Param>-->
-			<!--<Param type="ref">ADD_A_DLL_REFERENCE_HERE</Param>-->
-			<!--<Param type="debug">true</Param>-->
-			<Message>scriptMessage</Message>
-		</Exe>
-		<Exe id="2" type="information">
-			<Message>example</Message>
-		</Exe>
-	</Script>
-</DMSScript>
+}

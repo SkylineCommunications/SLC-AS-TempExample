@@ -44,7 +44,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleScript", "ExampleScr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{E07EF2FF-3E6C-4B0D-9328-7F64E870CFC1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleScript_1", "ExampleScript_1\ExampleScript_1.csproj", "{50E93818-A027-4095-A322-E11FCE0CFFB7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50E93818-A027-4095-A322-E11FCE0CFFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E93818-A027-4095-A322-E11FCE0CFFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E93818-A027-4095-A322-E11FCE0CFFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E93818-A027-4095-A322-E11FCE0CFFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -53,6 +65,7 @@ Global
 		{8957B60C-ADB6-4403-A084-17E0CFD562E6} = {B2451F0D-3120-4FA3-A560-8761694C9812}
 		{00DF6BDD-CA67-4121-9E2F-D8B603D0EFF1} = {AA2F31CF-5E42-4089-A612-52C1602018E5}
 		{E07EF2FF-3E6C-4B0D-9328-7F64E870CFC1} = {00DF6BDD-CA67-4121-9E2F-D8B603D0EFF1}
+		{50E93818-A027-4095-A322-E11FCE0CFFB7} = {E07EF2FF-3E6C-4B0D-9328-7F64E870CFC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C631BE85-7097-4C58-99F2-E64BF63CDE3C}
