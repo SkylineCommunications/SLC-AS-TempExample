@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DMSScript options="272" xmlns="http://www.skyline.be/automation">
-	<Name>ExampleScript</Name>
+	<Name>Script</Name>
 	<Description></Description>
 	<Type>Automation</Type>
-	<Author>PDB</Author>
+	<Author>SKYLINE2\Pedro</Author>
 	<CheckSets>FALSE</CheckSets>
 	<Folder></Folder>
 
@@ -17,8 +17,10 @@
 	</Parameters>
 
 	<Script>
-		<Exe id="2" type="information">
-			<Message>example</Message>
+		<Exe id="1" type="csharp">
+			<Value><![CDATA[[Project:Script_1]]]></Value>
+			<!--<Param type="debug">true</Param>-->
+			<Message></Message>
 		</Exe>
 	</Script>
 </DMSScript>
